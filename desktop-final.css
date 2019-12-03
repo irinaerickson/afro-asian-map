@@ -1,0 +1,133 @@
+* {
+         padding:0;
+          margin:0;
+        }
+body {
+	font-family: 'Prompt', sans-serif;
+	}
+a:link, a:active, a:visited {
+	color: black;
+	text-decoration: none;
+	
+}
+a:hover {
+	text-decoration: none;
+	color: gray;
+}
+
+footer {
+	height: 150px;
+	clear: both;
+	right: 0;
+	left: 0;
+	background-color: #aaadad;
+	margin-bottom: 0;
+	position:sticky;
+	text-align: center;
+	padding: 100px;
+
+		}
+.block {
+	clear: both;
+	padding-top: 40px;
+	padding-left: 3%;
+	padding-right: 7%;
+	right: 0;
+	left: 20%;
+}
+
+.tile1 {
+	width: 33%;
+	height: 200px;
+	border: solid #dbdbdb 1px;
+	float: left;
+	margin-left: 0;
+	padding: 30px;
+}
+.tile2 {
+	height: 200px;
+	border: solid white 1px;
+	border-bottom-color: #dbdbdb;
+	border-top-color: #dbdbdb;
+	position: relative;
+	float: left;
+	width: 33.5%;
+	padding: 30px;
+}
+.tile3 {
+	width: 33%;
+	height: 200px;
+	border: solid #dbdbdb 1px;
+	float: right;
+	padding: 30px;
+}
+.clear {
+	clear: both;
+	right: 0;
+	left: 0;
+	height: 200px;
+}
+.header-place {
+	padding: 10px 20px;
+	right: 0;
+	left: 0;
+	height: 75px;
+}
+
+.logo {
+	font-size: 20px;
+	float: left;
+}
+.site {
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-top: 20px;
+}
+.jumbotron {
+    padding:0;
+    background-color:black;
+	max-width: 100%;
+}
+#state {
+	padding: 20px;
+	text-align: center;
+	right: 0;
+	left: 0;
+	background-color: #dbdbdb;
+		}
+#map {
+	height: 700px;
+	right: 0;
+	left: 0;
+	width: 100%;
+		}
+#background {
+	right: 0;
+	left: 0;
+	width: 100%;
+	height: 500px;
+	z-index: -1;
+	position: absolute;
+	top: 0;
+		}
+#essay {
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-top: 20px;
+}
+#highlight {
+	background-color: #b7ff8a;
+	float: left;
+}
+#welcome {
+	height: 405px;
+}
+#call-action {
+	text-align: center;
+	padding: 2%;
+	padding-left: 15%;
+	padding-right: 15%;
+	font-family: 'La Belle Aurore', cursive;
+	font-size: 40px;
+			
+}
